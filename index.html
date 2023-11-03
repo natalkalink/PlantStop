@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<title>PlantStop</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header id="open" class="header">
+			<div id="close" class="header__container">
+				<div class="header__logo">
+					<img src="img/icons/logo.svg" alt="logo">
+				</div>
+				<div class="header__menu menu">
+					<nav id="menu" class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Shop Plants</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">About Us</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Contact</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<a href="#open" class="icon-menu"><span></span></a>
+				<a href="#close" class="close-icon-menu"></a>
+			</div>
+			<div class="header__banner">
+				<h3 class="header__title">New Species of Philodendron Plants Now Available!</h3>
+				<div class="header__button button button--banner"><a href="#">Learn More</a></div>
+			</div>
+		</header>
+		<main class="main">
+			<div class="main__container">
+				<section class="main__section section-row">
+					<div class="section-row__left">
+						<div class="section-row__image">
+							<img src="img/section/bonsai-tree.jpg" alt="bonsai-tree">
+						</div>
+					</div>
+					<div class="section-row__right">
+						<h1 class="section-row__title title title--big">Your one-stop shop for all things <span>green</span>!</h1>
+						<button class="section-row__button button button--big">See Available Plants</button>
+					</div>
+				</section>
+				<section class="main__about-us about-us">
+					<div class="about-us__info">
+						<h3 class="about-us__title title title--medium">Who are we?</h3>
+						<div class="about-us__text"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+					</div>
+					<div class="about-us__picture">
+						<div class="about-us__image">
+							<img src="img/about-us/girl.jpg" alt="girl">
+						</div>
+					</div>
+				</section>
+				<section class="main__sellers sellers">
+					<h3 class="sellers__title title title--medium">Best Sellers</h3>
+					<div class="sellers__row">
+						<div class="sellers__item item">
+							<a href="#" class="item__image">
+								<img src="img/sellers/lily-peace.jpg" alt="lily-peace">
+							</a>
+							<a href="#" class="item__category">Peace Lily</a>
+						</div>
+						<div class="sellers__item item">
+							<a href="#" class="item__image">
+								<img src="img/sellers/prayer-plant.jpg" alt="prayer-plant">
+							</a>
+							<a href="#" class="item__category">Prayer Plant</a>
+						</div>
+						<div class="sellers__item item">
+							<a href="#" class="item__image">
+								<img src="img/sellers/snake-plant.jpg" alt="snake-plant">
+							</a>
+							<a href="#" class="item__category">Snake Plant</a>
+						</div>
+						<div class="sellers__item item">
+							<a href="#" class="item__image">
+								<img src="img/sellers/calla-lily.jpg" alt="calla-lily">
+							</a>
+							<a href="#" class="item__category">Calla Lily</a>
+						</div>
+					</div>
+				</section>
+				<section class="main__checkout checkout">
+					<div class="checkout__box">
+						<div class="checkout__content">
+							<div class="checkout__head">
+								<div class="checkout__title title title--medium">Contact Us</div>
+									<div class="checkout__social social">
+										<div class="social__list">
+											<div class="social__item">
+												<a href="https://www.instagram.com/" target="_blank" title="instagram">
+													<img src="img/social/instagram.svg" alt="instagram">
+												</a>
+											</div>
+											<div class="social__item">
+												<a href="https://www.facebook.com/" target="_blank" title="facebook">
+													<img src="img/social/facebook.svg" alt="facebook">
+												</a>
+											</div>
+											<div class="social__item">
+												<a href="https://twitter.com/" target="_blank" title="twitter">
+													<img src="img/social/twitter.svg" alt="twitter">
+												</a>
+											</div>
+										</div>
+									</div>
+							</div>
+							<div class="checkout__body">
+								<form class="checkout__form form" action="#" method="post">
+									<div class="form__line">
+										<label for="username" class="form__title title title--small">Name</label>
+										<input id="username" class="form__input" autocomplete="off" type="text" name="username" value="" minlength="6" maxlength="24">
+									</div>
+									<div class="form__line">
+										<label for="user-mail" class="form__title title title--small">Email</label>
+										<input id="user-mail" class="form__input" autocomplete="off" type="email" name="user-mail" value="" minlength="12">
+									</div>
+									<h2 class="form__title title title--small">Message</h2>
+									<textarea class="form__textarea" name="text" id="text" cols="30" rows="10" ></textarea>
+									<button class="form__button button button--small" type="submit">Submit</button>
+								</form>
+							</div>
+						</div>
+						<div class="checkout__decor">
+							<div class="checkout__image">
+								<img src="img/checkout/un.jpg" alt="flower-big">
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__copyright">Copyright PlantStop© 2023</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>

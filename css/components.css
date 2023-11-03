@@ -1,0 +1,47 @@
+.title{
+	font-family: "Mulish" , sans-serif;
+	font-weight: 700;
+	line-height: 1.2;
+	color: #000;
+}
+.title--big{
+	font-size: 59px;
+}
+.title--medium{
+	text-transform: capitalize;
+	font-size: 55px;
+}
+.title--small{
+	font-size: 35px;
+}
+.button{
+	color: #FFF;
+	background-color: #5EB647;
+	border-radius: 10px;
+	font-size: 35px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: capitalize;
+	transition: all 0.3s ease 0s;
+}
+.button--banner{
+	font-size: 28px;
+	padding: 14px 17px;
+	color: rgba(255, 255, 255, 0.50);
+}
+.button--banner:hover{
+	text-decoration: underline;
+	color: #FFF;
+}
+.button--big{
+	padding: 22px 27px;
+}
+.button--big:hover{
+	background-color: #86e26f;
+}
+.button--small{
+	padding: 8px 27px;
+}
+.button--small:hover{
+	background-color: #86e26f;
+}
